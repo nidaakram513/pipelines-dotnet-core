@@ -20,4 +20,4 @@ steps:
   inputs:
     azureSubscription: '<Azure service connection>'
     appName: '<Name of web app>'
-    package: $(System.ArtifactsDirectory)/**/*.zip   
+    package: $(System.DefaultWorkingDirectory)/**/*.zip   
