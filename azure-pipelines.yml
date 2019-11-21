@@ -20,7 +20,7 @@ steps:
   inputs:
     sourcePath: 
     machineNames: 10.100.207.254
-    adminUserName: SYSTEMS/nida.akram
+    adminUserName: SYSTEMS\nida.akram
     adminPassword: Dahr*174
     targetPath: D:\test
     cleanTargetBeforeCopy: false
