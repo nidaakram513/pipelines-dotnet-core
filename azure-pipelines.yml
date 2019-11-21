@@ -19,7 +19,7 @@ steps:
 - task: WindowsMachineFileCopy@2
   inputs:
     sourcePath: 
-    machineNames: 10.100.100.116
+    machineNames: 10.100.101.9
     adminUserName: SYSTEMS\nida.akram
     adminPassword: Dahr*174
     targetPath: D:\test
