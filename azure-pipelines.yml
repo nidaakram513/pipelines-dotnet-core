@@ -22,6 +22,6 @@ steps:
     machineNames: 10.100.207.254
     adminUserName: SYSTEMS/nida.akram
     adminPassword: Dahr*174
-    targetPath: 
+    targetPath: D:\test
     cleanTargetBeforeCopy: false
     copyFilesInParallel: true
