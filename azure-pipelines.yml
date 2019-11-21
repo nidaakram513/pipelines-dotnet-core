@@ -19,10 +19,9 @@ steps:
 - task: WindowsMachineFileCopy@2
   inputs:
     sourcePath: 
-    #machineNames: # Optional
-    #adminUserName: # Optional
-    #adminPassword: # Optional
+    machineNames: 10.100.207.254
+    adminUserName: SYSTEMS/nida.akram
+    adminPassword: Dahr*174
     targetPath: 
-    #cleanTargetBeforeCopy: false # Optional
-    #copyFilesInParallel: true # Optional
-    #additionalArguments: # Optional
+    cleanTargetBeforeCopy: false
+    copyFilesInParallel: true
