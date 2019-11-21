@@ -17,3 +17,12 @@ steps:
   displayName: 'dotnet build $(buildConfiguration)'
 
 - task: WindowsMachineFileCopy@2
+  inputs:
+    sourcePath: 
+    #machineNames: # Optional
+    #adminUserName: # Optional
+    #adminPassword: # Optional
+    targetPath: 
+    #cleanTargetBeforeCopy: false # Optional
+    #copyFilesInParallel: true # Optional
+    #additionalArguments: # Optional
